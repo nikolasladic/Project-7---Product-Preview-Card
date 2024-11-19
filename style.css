@@ -1,0 +1,100 @@
+/****************************/
+/* DESKTOP */
+
+* {
+  margin: 0px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 600px;
+  height: 450px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.parfum-img {
+  width: 300px;
+  height: 450px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.parfum-details {
+  padding: 32px;
+}
+
+.parfum-title {
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+
+.parfum-name,
+.price-current {
+  font-family: "Fraunces";
+  font-weight: 700;
+  padding-right: 42px;
+  font-size: 28px;
+}
+
+.parfum-bio {
+  padding-top: 24px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+}
+
+.price {
+  padding-top: 29px;
+  display: flex;
+}
+
+.price-current {
+  color: hsl(158, 36%, 37%);
+  padding-right: 19px;
+}
+
+.price-discount {
+  align-self: center;
+  color: hsl(228, 12%, 48%);
+  text-decoration-line: line-through;
+}
+
+.cta {
+  margin-top: 30px;
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.cart-img {
+  padding-right: 10px;
+  align-items: center;
+}
+
+.cta:hover {
+  background-color: #1c232b;
+  cursor: pointer;
+}
